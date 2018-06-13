@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.2'
 
+gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'rails', '~> 5.2.0'
 gem 'sqlite3'
