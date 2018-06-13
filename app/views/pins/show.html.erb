@@ -1,0 +1,13 @@
+<h1>Show Page</h1>
+
+<h3>
+	<%= @pin.title %>
+</h3>
+
+<p>
+	<%= @pin.description %>
+</p>
+
+<%= link_to "edit", edit_pin_path %><br>
+<%= link_to "delete", pin_path, method: :delete, data: {confirm: "Are you sure?"} %><br>
+<%= link_to "go to home", pins_path %>

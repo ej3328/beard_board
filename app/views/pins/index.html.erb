@@ -1,0 +1,9 @@
+<h1>Hi! Welcome to Barber World</h1>
+
+<% @pins.each do |pin| %>
+  <h2>
+    <%= link_to pin.title, pin %>
+  </h2>
+<% end %>
+
+<%= link_to "Create Pin", new_pin_path %>
